@@ -177,7 +177,8 @@ img {
 }
 
 .dark-mode__toggle {
-  background: papayawhip;
+  background: black;
+  color: white;
   border-radius: 50px;
   border: 1px solid black;
   height: 20px;
@@ -211,6 +212,8 @@ img {
   justify-content: center;
   margin: 50px 0;
   width: 100%;
+  margin-bottom: -50px;
+  margin-top: 100px;
 }
 
 .coin__title {
@@ -225,4 +228,9 @@ img {
 
 .coin__logo {
   width: 50px;
+}
+
+.darkmode{
+  background-color: black;
+  color: white;
 }
